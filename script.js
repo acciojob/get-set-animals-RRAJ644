@@ -1,11 +1,11 @@
 
 class Animal {
   constructor(species) {
-    this._species = species
+    this.species = species
   }
 
   get getSpecies() {
-    return this._species
+    return this.species
   }
 
   makeSound() {
